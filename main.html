@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>My Webpage</title>
+    <!-- Link your CSS file here -->
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<body>
+<ul class="menu">
+    <li><a href="#">Course</a>
+        <ul class="submenu">
+            <li><a href="#">Kurose and Ross</a></li>
+            <li><a href="http://w3schools.com">w3schools</a></li>
+            <li><a href="https://www.geeksforgeeks.org/web-development/">GeeksforGeeks</a></li>
+        </ul>
+    </li>
+    <li><a href="#">Browser</a>
+    <ul class="submenu">
+        <li><a href="#" onclick="getNavigatorInfo()">Navigator</a></li>
+        <li><a href="#" onclick="getWindowInfo()">Window</a></li>
+        <li><a href="#" onclick="getScreenInfo()">Screen</a></li>
+        <li><a href="#" onclick="getLocationInfo()">Location</a></li>
+        <li><a href="#" onclick="getGeolocationInfo()">Geolocation</a></li>
+    </ul>
+
+    </li>
+    <li>
+        <a href="about.html">About</a>
+        
+    </li>
+</ul>
+    <div class="container" id="content">
+        <!-- Content will be displayed here -->
+    </div>
+
+</body>
+<script src= "main.js" ></script>
+</html>

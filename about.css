@@ -1,0 +1,106 @@
+/* Reset some default browser styles */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li,
+img {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color and font for the entire page */
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the container for the About Me content */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Add a hover effect to the container */
+.container:hover {
+    transform: scale(1.02);
+}
+
+/* Style the header (Your name) */
+h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+    transition: color 0.3s ease-in-out;
+}
+
+/* Add a hover effect to the header */
+h1:hover {
+    color: #007BFF;
+}
+
+/* Style the image */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    /* Makes the image round if it's a profile picture */
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Add a hover effect to the image */
+img:hover {
+    transform: scale(1.1);
+}
+
+/* Style the paragraphs (Your information) */
+p {
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #555;
+    line-height: 1.5;
+}
+
+/* Style the list of details (Name, Student ID, etc.) */
+ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 15px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+strong {
+    font-weight: bold;
+}
+
+/* Style the links (GitHub, email, etc.) */
+a {
+    color: #007BFF;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+/* Add a hover effect to links */
+a:hover {
+    color: #0056b3;
+}
+
+/* Style the footer (Contact information) */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #777;
+}
